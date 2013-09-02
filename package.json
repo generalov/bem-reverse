@@ -1,0 +1,24 @@
+{
+  "name": "bem-discover",
+  "version": "0.0.1",
+  "author": {
+    "name": "Evgeny V. Generalov",
+    "email": "e.generalov@gmail.com",
+    "url": "http://github.com/generalov"
+  },
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/generalov/bem-discover.git"
+  },
+  "dependencies" : {
+    "cheerio": "*",
+    "css": "*",
+    "mkdirp": "*",
+    "underscore": "*",
+    "underscore.string": "*"
+  },
+  "devDependencies": {
+    "mocha": "~1.11.0"
+  }
+}
