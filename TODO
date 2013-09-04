@@ -1,0 +1,22 @@
+- reverse-html
+    * Write documentation
+    * CLI interface
+    * Configurable "onclick" (use ondoubleclick)
+    * Strict mode (skip old-style onclick parser)
+
+- reverse-css
+    * Unfreeze images
+    * Ignorable classes
+    * Write documentation
+    * CLI interface
+    * Parse selectors like [class^='b-screenshot__middle'] 
+    * Keep comment _before_ rule
+    * Wild mode (write all single level)
+
+- split-css
+    * Write documentation
+    * Add dialogs (override, append, skip and etc.)
+    * CLI interface
+
+- reverse-js
+    * Cut by BEM declarations

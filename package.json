@@ -1,5 +1,5 @@
 {
-  "name": "bem-discover",
+  "name": "bem-reverse",
   "version": "0.0.1",
   "author": {
     "name": "Evgeny V. Generalov",
@@ -9,7 +9,7 @@
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/generalov/bem-discover.git"
+    "url": "git://github.com/generalov/bem-reverse.git"
   },
   "dependencies" : {
     "cheerio": "*",
