@@ -2,14 +2,14 @@ var FS = require("fs"),
     cssFile = process.argv[2],
     src = FS.readFileSync(cssFile, 'utf-8');
 
-var HTML2BEMJSON = require('html2bemjson');
+var UNCSS= require('../lib/uncss');
 var _ = require('underscore');
 var PATH = require('path');
 var mkdirp = require("mkdirp");
 
 var outputDir = '.', cssMap;
 
-cssMap = HTML2BEMJSON.uncss(src);
+cssMap = UNCSS.uncss(src);
 
 _.pairs(cssMap).forEach(function(n) {
     var path = n[0],
