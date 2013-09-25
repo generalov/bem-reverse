@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var UNHTML = require("../lib/unhtml"),
     FS = require("fs"),
     htmlFile = process.argv[2];
