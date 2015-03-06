@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git://github.com/generalov/bem-reverse.git"
   },
-  "dependencies" : {
+  "dependencies": {
     "cheerio": "*",
     "css": "*",
     "mkdirp": "*",
@@ -19,6 +19,7 @@
     "underscore.string": "*"
   },
   "devDependencies": {
+    "inherit": "^2.2.2",
     "mocha": "~1.11.0"
   }
 }

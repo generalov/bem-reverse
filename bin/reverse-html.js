@@ -3,6 +3,8 @@ var UNHTML = require("../lib/unhtml"),
     FS = require("fs"),
     htmlFile = process.argv[2];
 
+console.log('Processing ' + htmlFile)
+
 var html = FS.readFileSync(htmlFile),
     bemjson = UNHTML.html2bemjson(html);
 
